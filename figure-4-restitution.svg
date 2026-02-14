@@ -1,0 +1,27 @@
+<svg width="400" height="150" viewBox="0 0 400 150" xmlns="http://www.w3.org/2000/svg">
+    <!-- Ground line -->
+    <line x1="10" y1="120" x2="390" y2="120" stroke="#333" stroke-width="2" />
+
+    <!-- e = 0 -->
+    <circle cx="60" cy="100" r="15" fill="#e74c3c" opacity="0.8" />
+    <line x1="60" y1="60" x2="60" y2="85" stroke="#e74c3c" stroke-width="2" stroke-dasharray="4,3" />
+    <text x="60" y="45" text-anchor="middle" font-size="11" fill="#e74c3c">↓ drops</text>
+    <text x="60" y="143" text-anchor="middle" font-size="12" font-weight="bold">e = 0</text>
+    <text x="60" y="155" text-anchor="middle" font-size="10" fill="#666">(dead stop)</text>
+
+    <!-- e = 0.5 -->
+    <circle cx="200" cy="100" r="15" fill="#f39c12" opacity="0.8" />
+    <line x1="200" y1="60" x2="200" y2="85" stroke="#f39c12" stroke-width="2" stroke-dasharray="4,3" />
+    <circle cx="200" cy="75" r="12" fill="#f39c12" opacity="0.3" />
+    <text x="200" y="45" text-anchor="middle" font-size="11" fill="#f39c12">↑ half bounce</text>
+    <text x="200" y="143" text-anchor="middle" font-size="12" font-weight="bold">e = 0.5</text>
+    <text x="200" y="155" text-anchor="middle" font-size="10" fill="#666">(half energy)</text>
+
+    <!-- e = 1 -->
+    <circle cx="340" cy="100" r="15" fill="#2ecc71" opacity="0.8" />
+    <line x1="340" y1="20" x2="340" y2="85" stroke="#2ecc71" stroke-width="2" stroke-dasharray="4,3" />
+    <circle cx="340" cy="30" r="12" fill="#2ecc71" opacity="0.3" />
+    <text x="340" y="15" text-anchor="middle" font-size="11" fill="#2ecc71">↑ full bounce</text>
+    <text x="340" y="143" text-anchor="middle" font-size="12" font-weight="bold">e = 1</text>
+    <text x="340" y="155" text-anchor="middle" font-size="10" fill="#666">(perfect bounce)</text>
+</svg>
