@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="600" height="200" viewBox="0 0 600 200" xmlns="http://www.w3.org/2000/svg">
+<defs>
+                <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+                    <polygon points="0 0, 10 3, 0 6" fill="#ff3333" />
+                </marker>
+            </defs>
+
             <!-- Two overlapping circles -->
             <circle cx="250" cy="100" r="50" fill="rgba(55, 148, 255, 0.3)" stroke="#3794ff" stroke-width="2" />
             <circle cx="350" cy="100" r="50" fill="rgba(255, 148, 55, 0.3)" stroke="#ff9437" stroke-width="2" />
 
             <!-- Normal vector -->
-            <defs>
-                <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
-                    <polygon points="0 0, 10 3, 0 6" fill="#ff3333" />
-                </marker>
-            </defs>
             <line x1="300" y1="100" x2="380" y2="100" stroke="#ff3333" stroke-width="3" marker-end="url(#arrowhead)" />
             <text x="340" y="85" fill="#ff3333" font-size="12" text-anchor="middle">Normal</text>
 
